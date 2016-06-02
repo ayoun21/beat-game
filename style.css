@@ -1,3 +1,16 @@
 body {
-    background-color: orange;
+    
+    background-color: white;
+    background-image: url("http://kimlawford.com.au/images/crowd1.png");
+    background-size:100%;
+    background-repeat:no-repeat;
+    background-position: center; 
+    min-height: 100%;
+    
+    
+}
+
+html{
+    min-height: 100%;
+    
 }
