@@ -35,4 +35,22 @@ body {
 
 html {
     min-height: 100%;
+<<<<<<< HEAD
 }
+=======
+    
+}
+
+.bottomleft{
+-webkit-transform: rotate(360deg);
+background-position: bottom left;
+bottom:0;
+left:0;
+}
+.bottomright{
+-webkit-transform: rotate(1800deg);
+background-position: bottom right;
+  bottom: 0;  
+  right:0;
+}
+>>>>>>> bfb2d34568a5460b1a271ba5bc09a81112216ae6
