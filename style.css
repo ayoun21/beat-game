@@ -35,10 +35,6 @@ body {
 
 html {
     min-height: 100%;
-<<<<<<< HEAD
-}
-=======
-    
 }
 
 .bottomleft{
@@ -53,4 +49,4 @@ background-position: bottom right;
   bottom: 0;  
   right:0;
 }
->>>>>>> bfb2d34568a5460b1a271ba5bc09a81112216ae6
+
