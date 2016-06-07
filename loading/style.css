@@ -1,0 +1,18 @@
+body {
+  background-color: white;
+}
+
+
+button {
+  border-radius: 75px;
+  display: block;
+  margin: auto;
+}
+
+#play {
+  font-size: 45px;
+  color: red;
+  font-family: "chalkboard se";
+  background-color: white;
+  color: green;
+}

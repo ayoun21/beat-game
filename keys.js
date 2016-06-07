@@ -1,7 +1,7 @@
 // keys: w=119 s=115 e=101 d=100, k=107 i=105 o=111 l=108 //
 /*global $*/
 
-("body").keypress(function(event) {
+$("body").keypress(function(event) {
     console.log(event);
     if (event.which === 119) {
         $('#w')[0].play();
@@ -10,7 +10,7 @@
             $("#w-drum").removeClass("light");
         }, 250);
     }
-    if (event.which === 119) {
+    if (event.which === 115) {
         $('#s')[0].play();
        $("#s-drum").addClass("light");
         setTimeout(function() {
