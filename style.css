@@ -50,3 +50,7 @@ background-position: bottom right;
   right:0;
 }
 
+.light{
+    -webkit-filter: brightness(200%);
+
+}
