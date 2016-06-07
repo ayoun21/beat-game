@@ -1,4 +1,5 @@
 // keys: w=119 s=115 e=101 d=100, k=107 i=105 o=111 l=108 //
+/*global $*/
 
 $("body").keypress(function(event) {
     console.log(event);
