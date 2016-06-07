@@ -1,52 +1,40 @@
 body {
-
-    
     background-color: white;
-    background: url("http://www.postype.com/files/2016/01/31/15/51/de2f18d4eddd577bd44935483a50557a.gif");
-    background-image: url("http://www.postype.com/files/2016/01/31/15/51/de2f18d4eddd577bd44935483a50557a.gif");
-    background-size:cover;
-    background-repeat:no-repeat;
-    background-position: center; 
+    background-image: url("http://kimlawford.com.au/images/crowd1.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
     min-height: 100%;
-    
-    
 }
 
-
-
-.topleft{ 
-top:0;
-left:0;  
-}
-#container{
-position:relative;
-width:200px;
-height:200px;
-}
-.quadrant{
-position:absolute;
-overflow:hidden;
-width:30%;
-
-background-size: 200%;
-}
-.right-quadrant{
-position:absolute;
-overflow:hidden;
-width:30%;
-margin-left:60%;
-background-size: 200%;
-}
-.topright{
-background-position: top right;
-top:0;
-right:0;
+.topleft {
+    top: 0;
+    left: 0;
 }
 
+#container {
+    position: relative;
+    width: 200px;
+    height: 200px;
+}
 
-html{
+.quadrant {
+    position: absolute;
+    overflow: hidden;
+    width: 50%;
+    height: 50%;
+    background-image: url(http://images.static.steveweissmusic.com/products/images/uploads/1106368_5709_popup.JPG);
+    background-size: 200%
+}
+
+.topright {
+    background-position: top right;
+    top: 0;
+    right: 0;
+}
+
+html {
     min-height: 100%;
-    
 }
 
 .bottomleft{
@@ -61,50 +49,4 @@ background-position: bottom right;
   bottom: 0;  
   right:0;
 }
-
-.topleft{ 
-top:0;
-left:0;  
-}
-#container{
-position:relative;
-width:200px;
-height:200px;
-}
-
-.topright{
-background-position: top right;
-top:0;
-right:0;
-}
-
-
-html{
-    min-height: 100%;
-    
-}
-
-.bottomleft{
--webkit-transform: rotate(360deg);
-background-position: bottom left;
-bottom:0;
-left:0;
-}
-.bottomright{
--webkit-transform: rotate(1800deg);
-background-position: bottom right;
-  bottom: 0;  
-  right:0;
-}
-
-
-
-
-
-
-
-
-
-
-
 
