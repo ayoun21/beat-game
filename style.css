@@ -1,3 +1,30 @@
+h1{
+    text-align: center;
+    font-family: Desdemona;
+    color: skyblue;
+}
+
+h2{
+    font-family: Desdemona;
+    color: skyblue;
+    text-align: justify;
+}
+
+.beast {
+  clear: both;
+  padding-top: 450px;
+  padding-bottom: 100px;
+  margin-bottom: 150px; 
+}
+
+.super {
+   width: 20%;
+  float: left;
+  text-align: center;
+  font-family: Hanzipen TC;
+  width: 400px;
+}
+
 body {
     background-color: white;
     background-image: url("http://kimlawford.com.au/images/crowd1.png");
@@ -25,7 +52,7 @@ body {
     width: 50%;
     height: 50%;
     background-image: url(http://images.static.steveweissmusic.com/products/images/uploads/1106368_5709_popup.JPG);
-    background-size: 200%
+    background-size: 200%;
 }
 
 .topright {

@@ -1,18 +1,31 @@
 body {
-  background-color: white;
+  background-image: url('https://i.ytimg.com/vi/1qp7nPQ6xFg/maxresdefault.jpg');
+  background-size: cover;
+  
 }
 
 
-button {
+a {
   border-radius: 75px;
   display: block;
   margin: auto;
+  border: 3px solid black;
+  font-family: chalkduster;
 }
 
 #play {
-  font-size: 45px;
-  color: red;
+  font-size: 40px;
+  color: white;
   font-family: "chalkboard se";
-  background-color: white;
-  color: green;
+  background-color: black;
+  text-align: center;
+  text-decoration: none;
+  width: 300px;
+  
+}
+
+h1 {
+  text-align: center;
+  font-family: desdemona;
+  font-size: 75px;
 }
